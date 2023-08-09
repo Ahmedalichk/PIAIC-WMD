@@ -1,0 +1,21 @@
+
+npm prompt sync search on google
+
+"""npm i prompt-sync"""
+
+paste in terminal to get value from user
+
+-"""npm i @types/node -D""" in terminal for require, -D is developer depedency
+
+- in code in index.ts file 
+const promptSync = require('prompt-sync')();
+let usereName = promptSync('Enter Your Name..')
+console.log('Your Name is : ', usereName)
+
+
+find method
+const num1=[12, 14, 18, 22, 24];
+const findNum= num1.find(elem=> elem ===12);
+console.log(findNum);
+
+
